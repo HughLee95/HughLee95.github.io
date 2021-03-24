@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hughlee95.github.io</id>
     <title>hugh</title>
-    <updated>2021-03-12T00:52:00.873Z</updated>
+    <updated>2021-03-24T07:45:18.428Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hughlee95.github.io"/>
     <link rel="self" href="https://hughlee95.github.io/atom.xml"/>
@@ -12,6 +12,13 @@
     <logo>https://hughlee95.github.io/images/avatar.png</logo>
     <icon>https://hughlee95.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, hugh</rights>
+    <entry>
+        <title type="html"><![CDATA[课程学习《城市防灾学》]]></title>
+        <id>https://hughlee95.github.io/post/ke-cheng-xue-xi-lesslesscheng-shi-fang-zai-xue-greatergreater/</id>
+        <link href="https://hughlee95.github.io/post/ke-cheng-xue-xi-lesslesscheng-shi-fang-zai-xue-greatergreater/">
+        </link>
+        <updated>2021-03-24T02:57:23.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[中国EGS的科研想象]]></title>
         <id>https://hughlee95.github.io/post/zhong-guo-egs-de-ke-yan-xiang-xiang/</id>
@@ -74,12 +81,5 @@
         <link href="https://hughlee95.github.io/post/lesslessce-bu-ke-ce-da-qi-da-luo-de-di-zhen-yu-ce-yan-jiu-greatergreater-guan-jian-bu-fen-ti-qu/">
         </link>
         <updated>2021-01-15T07:34:04.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[研究所需书单]]></title>
-        <id>https://hughlee95.github.io/post/yan-jiu-suo-xu-shu-dan/</id>
-        <link href="https://hughlee95.github.io/post/yan-jiu-suo-xu-shu-dan/">
-        </link>
-        <updated>2021-01-11T12:19:26.000Z</updated>
     </entry>
 </feed>
