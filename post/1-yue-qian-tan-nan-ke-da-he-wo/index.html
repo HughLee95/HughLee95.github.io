@@ -1,242 +1,105 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-    <meta charset="utf-8" />
-<title>
-    hugh
-</title>
-<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-<meta name="author" content="Hugh">
-<meta name="description" content="one man">
-<meta name="keywords" content="">
-<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="https://hughlee95.github.io/styles/main.css" />
-<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+<title>1月浅谈南科大和我 | hugh</title>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://hughlee95.github.io/favicon.ico?v=1623380646400">
+<link rel="stylesheet" href="https://hughlee95.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="元旦过后，我来到了南方科技大学。因为还没有硕士毕业，所以先做一名访问学生，之后拿到毕业证，就做科研助理。实际上我的目的是为了读博士。学科是交叉学科，实际上是把地震的风险带入生产生活中，或者是把自然灾害进行数字化、理论化，利用数学方法模拟发生..." />
+    <meta name="keywords" content="学习,南方科技大学,生活" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://hughlee95.github.io">
+        <img src="https://hughlee95.github.io/images/avatar.png?v=1623380646400" class="site-logo">
+        <h1 class="site-title">hugh</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
-            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+          <a href="https://hughlee95.github.io" class="site-nav" target="_blank">
+            主页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav" target="_blank">
+            All Works
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav" target="_blank">
+            Diferent Tags
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav" target="_blank">
+            About me
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <p>我希望在这里写我的故事。</p>
+<p>有关我的爱情，事业，生活。</p>
+<p>写我所想，自由自在</p>
+    </div>
+    <div class="site-footer">
+      <p>喜欢我就把我加入收藏夹</p> | <a class="rss" href="https://hughlee95.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">1月浅谈南科大和我</h2>
+            <div class="post-date">2021-01-11</div>
             
-                <!--点击特效-->
-                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
-                
-                        <!--CDN样式-->
-                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
-                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
-                        
-                            <script>
-                                (function() {
-                                    var bp = document.createElement('script');
-                                    var curProtocol = window.location.protocol.split(':')[0];
-                                    if (curProtocol === 'https') {
-                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-                                    } else {
-                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-                                    }
-                                    var s = document.getElementsByTagName("script")[0];
-                                    s.parentNode.insertBefore(bp, s);
-                                })();
-                            </script>
-                            
-</head>
-
-<body>
-    <div class="wrapper">
-        <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo">
-                <a href="https://hughlee95.github.io">
-                    hugh
-                </a>
-            </div>
-            <div id="tp-weather-widget"></div>
-            <div class="menu navbar-right">
-                
-                    <a class="menu-item" href="https://hughlee95.github.io">
-                        主页
-                    </a>
-                    
-                    <a class="menu-item" href="/archives">
-                        All Works
-                    </a>
-                    
-                    <a class="menu-item" href="/tags">
-                        Diferent Tags
-                    </a>
-                    
-                    <a class="menu-item" href="/post/about">
-                        About me
-                    </a>
-                    
-                        <input id="switch_default" type="checkbox" class="switch_default">
-                        <label for="switch_default" class="toggleBtn"></label>
-            </div>
-            <form id="gridea-search-form" data-update="1623380432196" action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-            </form>
-        </div>
-    </nav>
-
-    
-        <nav class="navbar-mobile" id="nav-mobile">
-            <div class="container">
-                <div class="navbar-header">
-                    <div>
-                        <a href="https://hughlee95.github.io">
-                            hugh
-                        </a>
-                        <!--en-->
-                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
-                        <!--zh-->
-                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
-                    </div>
-                    <form id="gridea-search-form" data-update="1623380432196" action="/search/index.html">
-                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-                    </form>
-                    <!--en-->
-                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
-                    <!--zh-->
-                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
-
-                </div>
-                <div class="menu" id="mobile-menu">
-                    
-                        <a class="menu-item" href="https://hughlee95.github.io">
-                            主页
-                        </a>
-                        
-                        <a class="menu-item" href="/archives">
-                            All Works
-                        </a>
-                        
-                        <a class="menu-item" href="/tags">
-                            Diferent Tags
-                        </a>
-                        
-                        <a class="menu-item" href="/post/about">
-                            About me
-                        </a>
-                        
-                </div>
-            </div>
-        </nav>
-</header>
-<script>
-    var mobileBtn = function f() {
-        var toggleMenu = document.getElementById("menu-toggle-en");
-        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
-
-        var mobileMenu = document.getElementById("mobile-menu");
-        if (toggleMenu.display != "none") {
-            if (toggleMenu.classList.contains("active")) {
-                toggleMenu.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        } else if (toggleMenu_zh.display != "none") {
-            if (toggleMenu_zh.classList.contains("active")) {
-                toggleMenu_zh.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu_zh.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        }
-
-    }
-</script>
-
-
-
-    <script>
-        (function(a, h, g, f, e, d, c, b) {
-            b = function() {
-                d = h.createElement(g);
-                c = h.getElementsByTagName(g)[0];
-                d.src = e;
-                d.charset = "utf-8";
-                d.async = 1;
-                c.parentNode.insertBefore(d, c)
-            };
-            a["SeniverseWeatherWidgetObject"] = f;
-            a[f] || (a[f] = function() {
-                (a[f].q = a[f].q || []).push(arguments)
-            });
-            a[f].l = +new Date();
-            if (a.attachEvent) {
-                a.attachEvent("onload", b)
-            } else {
-                a.addEventListener("load", b, false)
-            }
-        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
-        window.SeniverseWeatherWidget('show', {
-            flavor: "slim",
-            location: "WWEFQFPJZ7T8",
-            geolocation: true,
-            language: "auto",
-            unit: "c",
-            theme: "auto",
-            token: "61bcc333-3305-4728-9465-6785274bb0a3",
-            hover: "enabled",
-            container: "tp-weather-widget"
-        })
-    </script>
-    
-            <div class="main">
-                <div class="container">
-                    <article class="post-wrap">
-                        <header class="post-header">
-                            <h1 class="post-title">
-                                1月浅谈南科大和我
-                            </h1>
-                            
-                                    <!--zh-->
-                                    <div class="post-meta zh">
-                                        &#x4F5C;&#x8005;:
-                                        <a itemprop="author" rel="author" href="/">
-                                            hugh
-                                        </a>
-                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2021-01-11</a></span>
-                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
-                                    href="#">3.5
-                                    &#x5206;&#x949F;</a></span>
-                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1039</a></span>
-                                        
-                                            <span class="post-category">&#x5206;&#x7C7B;:
-                                
-                                <a href="https://hughlee95.github.io/tag/cfASU2E0c/">学习</a>
-                                
-                                <a href="https://hughlee95.github.io/tag/0q9zJmmmte/">南方科技大学</a>
-                                
-                                <a href="https://hughlee95.github.io/tag/CcYcyaDzq/">生活</a>
-                                
-                            </span>
-                                            
-                                                阅读量:
-                                                <span data-hk-page="current"> - </span>
-                                                
-                                    </div>
-                                    
-                        </header>
-                        
-                            <img class="post-feature-image" src="https://www.sustech.edu.cn/wp-content/uploads/TIM%E5%9B%BE%E7%89%8720180524172851-1-190x189-1.png" alt="">
-                          
-                        <div class="post-content">
-                            <p>元旦过后，我来到了南方科技大学。因为还没有硕士毕业，所以先做一名访问学生，之后拿到毕业证，就做科研助理。实际上我的目的是为了读博士。学科是交叉学科，实际上是把地震的风险带入生产生活中，或者是把自然灾害进行数字化、理论化，利用数学方法模拟发生过程、预防其中的一些问题。</p>
+              <div class="feature-container" style="background-image: url('https://www.sustech.edu.cn/wp-content/uploads/TIM%E5%9B%BE%E7%89%8720180524172851-1-190x189-1.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>元旦过后，我来到了南方科技大学。因为还没有硕士毕业，所以先做一名访问学生，之后拿到毕业证，就做科研助理。实际上我的目的是为了读博士。学科是交叉学科，实际上是把地震的风险带入生产生活中，或者是把自然灾害进行数字化、理论化，利用数学方法模拟发生过程、预防其中的一些问题。</p>
 <p>我们研究院的环境极其好。人人都是一台配置相对较高的台式机。虽然不是工作站，但是跑一跑基本的程序是足够用了，不行就买内存条就好啦。说到买内存条，我们这里的经费似乎很多。说买就买，几乎三天就到了。</p>
 <p>我们研究院的氛围极其好。没有固定的上班下班的时间，只要你把自己手头的活干完了就行。工作日的时候大家真的都在认真学习，认真run自己的代码，写论文，看书。周围的人的背景都很好，有多伦多大学的博士、中科大的博士、北大的博士、武大的博士，他们要么是院士的博士后，要么是外国院士的博士后。放到以前，可真的是只可远观。现在的我竟然和他们在同一间屋子里做着科研。他们虽然说还真的有一点nerd，但是每个人都是极具个人风格。我身边的多伦多大学的博士和我一天入职。他真的是极其热爱生活，喜欢看书，喜欢健身。和我们一起吃饭的北大的博士，他是一个喜欢开车载着朋友出去玩的人，而且，他是一个猫奴啊！！老师也都是大牛级别的。虽然不是国内的青千，杰出人才（只有一个中国老师），但是几乎没有架子，有问必答。而且，最重要的一点，只要你联系老师，老师都会认证回复你。</p>
 <p>我的指导老师是一个外国人。他特别的nice。每次只要他在线，我给他发消息，他就会及时回复我。然后我问老师，你的有几个图的代码我不清楚，因为我不知道你的选择结点的标准是啥。老师二话不说，甩给我他写的代码。然后告诉我，你现在就好好看看代码，把论文里面的图例都画出来，至于实验方法学，咱们之后再说。我的工作实际上还停留在基础层面，就是把老师给的homework做出来，还没有真正的走入研究领域。</p>
@@ -246,164 +109,66 @@
 <p>我来自于北方，真的超级喜欢深圳！！！！！</p>
 <p>以后，科学家阳仔要是有机会去香港或者深圳就业，真的就太好了！！！！！</p>
 
-                        </div>
-                        
-                            <div class="post-toc">
-                                
-                            </div>
-                            
-                                
-                                    
-                                            <!--zh-->
-                                            <section class="post-copyright zh">
-                                                <p class="copyright-item ">
-                                                    <span>&#x4F5C;&#x8005;:</span>
-                                                    <span>hugh</span>
-                                                </p>
-
-                                                <p class="copyright-item">
-                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://hughlee95.github.io/post/1-yue-qian-tan-nan-ke-da-he-wo/">https://hughlee95.github.io/post/1-yue-qian-tan-nan-ke-da-he-wo/</a></span>
-                                                </p>
-
-                                                <p class="copyright-item">
-                                                    <span>&#x534F;&#x8BAE;:</span>
-                                                    <span>MIT License</span>
-                                                </p>
-                                            </section>
-                                            
-                                                
-                                                    
-                                                                    <!--Share-->
-                                                                    <span style="margin-right:15px">
-                        <i class="post-share"></i>
-                        <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://hughlee95.github.io/post/1-yue-qian-tan-nan-ke-da-he-wo/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hughlee95.github.io/post/1-yue-qian-tan-nan-ke-da-he-wo/&sharesource=qzone&title=1月浅谈南科大和我&pics=https://hughlee95.github.io/images/avatar.png?v=1623380432196&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://hughlee95.github.io/post/1-yue-qian-tan-nan-ke-da-he-wo/&sharesource=weibo&title=1月浅谈南科大和我 + " - " + &pic="https://hughlee95.github.io/images/avatar.png?v=1623380432196 "><i class="fa fa-weibo "></i></a>
-
-                                                                    </span>
-                                                                    
-                                                                            <!--zh-->
-                                                                            <section class="post-tags zh ">
-                                                                                <div>
-                                                                                    <span>&#x6807;&#x7B7E;:</span>
-                                                                                    <span class="tag ">
-                        
-                        
-                        <a href="https://hughlee95.github.io/tag/cfASU2E0c/">#
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://hughlee95.github.io/tag/cfASU2E0c/" class="tag">
                     学习
-                        </a>
-                        
-                        <a href="https://hughlee95.github.io/tag/0q9zJmmmte/">#
+                  </a>
+                
+                  <a href="https://hughlee95.github.io/tag/0q9zJmmmte/" class="tag">
                     南方科技大学
-                        </a>
-                        
-                        <a href="https://hughlee95.github.io/tag/CcYcyaDzq/">#
+                  </a>
+                
+                  <a href="https://hughlee95.github.io/tag/CcYcyaDzq/" class="tag">
                     生活
-                        </a>
-                        
-                            
-                                </span>
-                                                                                </div>
-                                                                                <div>
-                                                                                    <a href="javascript:window.history.back();">
-                        &#x8FD4;&#x56DE;</a>
-                                                                                    <span>&dot;</span>
-                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
-                                                                                </div>
-                                                                            </section>
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://hughlee95.github.io/post/guan-yu-wo-zi-ji/">
+                  <h3 class="post-title">
+                    关于我自己
+                  </h3>
+                </a>
+              </div>
+            
 
-                                                                            
-                                                                                <!---->
-                                                                                <section class="post-nav">
-                                                                                    
-                                                                                        <a class="prev" rel="prev" href="https://hughlee95.github.io/post/xie-xie-ni-gei-wo-de-wen-rou/">
-                                                                                            谢谢你给我的温柔
-                                                                                        </a>
-                                                                                        
-                                                                                            
-                                                                                                <a class="next" rel="next" href="https://hughlee95.github.io/post/guan-yu-wo-zi-ji/">
-                                                                                                    关于我自己
-                                                                                                </a>
-                                                                                                
-                                                                                </section>
-                    </article>
-                </div>
-                
-                                            
-            </div>
-    </div>
-    </div>
-    </div>
-    
-        <footer id="footer" class="footer">
-            <div class="copyright">
-                
-                    <div class="Like">
-                        <div class="tip" data-tooltip="Do you like it?">
-                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank" title=""><svg class="icon"
-                        aria-hidden="true">
-                        <use xlink:href="#like"></use>
-                    </svg><b class="like_text" id="star"></b></a>
-                        </div>
-                    </div>
-                    
-                        <p>喜欢我就把我加入收藏夹</p>
-                            
-                                <b id="hitokoto"></b><br>
-                                
-                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
-            <path
-                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
-                fill="#93b5cf"></path>
-        </svg>
-                                        hugh &copy;Copyright
-                                            <script>
-                                                var date = new Date();
-                                                document.write("" + date.getFullYear());
-                                            </script>
-                                            | Powered by
-                                            <a href="https://coding.net" target="_blank">
-                                                Coding.net
-                                            </a>
-            </div>
-            <div id="update" style="display:none;">
-                off
-            </div>
             
-                    <script>
-                        var port = '';
-                        
-                        port = ':4000';
-                        
-                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
-                    </script>
-        </footer>
-        
-            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
-            
-                <script>
-                    
-                    
-                    loadlive2d();
-                    
-                    
-                    hitokoto();
-                    
-                    getStar();
-                    hljs.initHighlighting();
-                    console.clear();
-                    
-                    var newDate = new Date();
-                    newDate.setTime(1623380432196);
-                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
-                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
-                </script>
+
+          </div>
+
         </div>
-</body>
-<script>
-    scroll();
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
 </html>
